@@ -1,0 +1,32 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto f759ac618f7043bf8f88210dcb36740d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mm4x4_tb_behav xil_defaultlib.mm4x4_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:345]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:359]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:372]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:385]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:398]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:411]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:424]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:437]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:450]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:463]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:476]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:489]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:502]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:515]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:528]
+WARNING: [VRFC 10-3091] actual bit length 33 differs from formal bit length 16 for port 'in_y' [E:/Vivado_works/Vivado_Projects/systolic_mm/systolic_mm.srcs/sources_1/new/mm4x4.v:541]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ram_buffer
+Compiling module xil_defaultlib.ram_buffer(BW=33)
+Compiling module xil_defaultlib.madd_pe
+Compiling module xil_defaultlib.mm4x4
+Compiling module xil_defaultlib.mm4x4_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mm4x4_tb_behav

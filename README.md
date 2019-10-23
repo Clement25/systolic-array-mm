@@ -1,1 +1,1 @@
-# systolic-arr-mm
+# systolic-array-mm

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mm4x4_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mm4x4_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="390168000fs"></ZoomStartTime>
+      <ZoomEndTime time="452868001fs"></ZoomEndTime>
+      <Cursor1Time time="416268000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="179"></NameColumnWidth>
+      <ValueColumnWidth column_width="95"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/mm4x4_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/load" type="logic">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/pe_en" type="logic">
+      <obj_property name="ElementShortName">pe_en</obj_property>
+      <obj_property name="ObjectShortName">pe_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/buf_wea" type="logic">
+      <obj_property name="ElementShortName">buf_wea</obj_property>
+      <obj_property name="ObjectShortName">buf_wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/a_row1" type="array">
+      <obj_property name="ElementShortName">a_row1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a_row1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/a_row2" type="array">
+      <obj_property name="ElementShortName">a_row2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a_row2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/a_row3" type="array">
+      <obj_property name="ElementShortName">a_row3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a_row3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/a_row4" type="array">
+      <obj_property name="ElementShortName">a_row4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a_row4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/b_row1" type="array">
+      <obj_property name="ElementShortName">b_row1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b_row1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/b_row2" type="array">
+      <obj_property name="ElementShortName">b_row2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b_row2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/b_row3" type="array">
+      <obj_property name="ElementShortName">b_row3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b_row3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/b_row4" type="array">
+      <obj_property name="ElementShortName">b_row4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b_row4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/addr" type="array">
+      <obj_property name="ElementShortName">addr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/addr_res_read" type="array">
+      <obj_property name="ElementShortName">addr_res_read[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_res_read[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/c_col1" type="array">
+      <obj_property name="ElementShortName">c_col1[32:0]</obj_property>
+      <obj_property name="ObjectShortName">c_col1[32:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/c_col2" type="array">
+      <obj_property name="ElementShortName">c_col2[32:0]</obj_property>
+      <obj_property name="ObjectShortName">c_col2[32:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/c_col3" type="array">
+      <obj_property name="ElementShortName">c_col3[32:0]</obj_property>
+      <obj_property name="ObjectShortName">c_col3[32:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/c_col4" type="array">
+      <obj_property name="ElementShortName">c_col4[32:0]</obj_property>
+      <obj_property name="ObjectShortName">c_col4[32:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/BW" type="array">
+      <obj_property name="ElementShortName">BW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/ROW" type="array">
+      <obj_property name="ElementShortName">ROW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ROW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mm4x4_tb/LOG_RAM_DEPTH" type="array">
+      <obj_property name="ElementShortName">LOG_RAM_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LOG_RAM_DEPTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
